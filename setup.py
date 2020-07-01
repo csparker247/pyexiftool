@@ -31,4 +31,5 @@ setup(  name="PyExifTool",
 			"Programming Language :: Python :: 2.7",
 			"Programming Language :: Python :: 3",
 			"Topic :: Multimedia"],
-		py_modules=["exiftool/exiftool"])
+		package_dir={'exiftool': 'exiftool'},
+		packages=['exiftool'])
